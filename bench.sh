@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+REPOSITORY_ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+exec bash "$REPOSITORY_ROOT/tasks/mimo-v2.6-distill-qwen9b-bw-vllm/bench.sh" "$@"
