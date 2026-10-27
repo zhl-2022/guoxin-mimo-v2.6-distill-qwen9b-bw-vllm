@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-27T14:49:17.242586+00:00",
+  "state": "running",
+  "tasks": 89,
+  "all_tasks_in_denominator": true,
+  "agent_commit": "c3df8469f250b15e7906487a6d52be4c1827a509",
+  "adapter_sha256": "adfcbbc65baad32b4f689228255e7cae806d4915239c554de4ad69f1fed70b52",
+  "controller_sha256": "78503de591518c329b46c743762ee11a48a6ed76ba2e6be96e5a8a3c0e07ee5e",
+  "config_sha256": "00be75a65c05d18a023e6c540a2f94bcd8e7a8e9a0363dd35e577de893f781a0",
+  "publisher_exact_leaderboard_harness_config_found": false,
+  "prior_full016_invalid_for_accuracy": "Tunnel disconnect and tool-timeout adapter error; all raw files retained",
+  "infrastructure_retries_preserve_originals": true,
+  "jobs": [],
+  "submitted": false,
+  "instance_shutdown_requested": false,
+  "active_job": "mimo-native-full017",
+  "harbor_pid": 78902,
+  "active_started_utc": "2026-10-27T14:51:28.311038+00:00"
+}

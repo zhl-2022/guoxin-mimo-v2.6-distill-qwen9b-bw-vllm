@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/harbor/trial/trial.py", line 609, in run
+    await self._run()
+  File "/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/harbor/trial/single_step.py", line 40, in _run
+    await self._run_agent()
+  File "/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/harbor/trial/single_step.py", line 76, in _run_agent
+    await self._run_agent_phase(
+  File "/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/harbor/trial/trial.py", line 769, in _run_agent_phase
+    await asyncio.wait_for(
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/mnt/e/hg20261019/scripts/submission013/mimo_harbor_native017.py", line 153, in run
+    raise RuntimeError(f'Publisher agent infrastructure exit: {status}: {message[:200]}')
+RuntimeError: Publisher agent infrastructure exit: ModelQueryError: RetryError[<Future at 0x75c9284d0710 state=finished raised APITimeoutError>]
+Traceback (most recent call last):
+  File "/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_tra

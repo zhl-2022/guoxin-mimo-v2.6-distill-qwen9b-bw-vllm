@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-27T15:35:08.451170+00:00",
+  "state": "waiting_initial_full017",
+  "controller_pid": 102365,
+  "prior_owner_pid": 78127,
+  "prior_owner_start_token": "2732417",
+  "controller_sha256": "8515a916ef2a97909baaae2dfe521a1c77b2fcca9a157075fbbe40cabab454cc",
+  "adapter_sha256": "79a49fd7885473524288892309c1edab9bca17ae2f01375527b788e5a0d2d408",
+  "stream_tool_smoke_sha256": "197aa7d06d2e7c1c06366dd642d259af25e65dcf5ab2c47c17fa4ef70df261e6",
+  "tasks": 89,
+  "all_tasks_in_denominator": true,
+  "model_sampling_budget_changed": false,
+  "wire_change": "Publisher native streaming instead of nonstreaming; 360s between-byte timeout",
+  "valid_completed_reward_zero_retained": true,
+  "submitted": false,
+  "instance_shutdown_requested": false,
+  "jobs": []
+}

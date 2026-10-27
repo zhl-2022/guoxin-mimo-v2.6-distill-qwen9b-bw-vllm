@@ -1,0 +1,138 @@
+{
+    "id": "830399d7-dfec-4944-bedc-1ad92225b984",
+    "task_name": "terminal-bench/adaptive-rejection-sampler",
+    "trial_name": "adaptive-rejection-sampler__gSr2umk",
+    "trial_uri": "file:///mnt/e/hg20261019/evidence/session016/harbor-mimo/mimo-native-full017/adaptive-rejection-sampler__gSr2umk",
+    "task_id": {
+        "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/adaptive-rejection-sampler"
+    },
+    "source": null,
+    "task_checksum": "463755ab310857f4f232521eaeb8cfd96df34a9c32e0d06aa51669a1f8442c68",
+    "config": {
+        "task": {
+            "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/adaptive-rejection-sampler",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "adaptive-rejection-sampler__gSr2umk",
+        "trials_dir": "/mnt/e/hg20261019/evidence/session016/harbor-mimo/mimo-native-full017",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": 4.0,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": 3.0,
+        "agent": {
+            "name": null,
+            "import_path": "mimo_harbor_native017:MiMoBashHarborAgent",
+            "model_name": "openai/mimo-v2.6-distill-qwen-9b",
+            "base_url": "http://127.0.0.1:19019/v1",
+            "model_api_key_name": null,
+            "model_api_format": "openai_chat_completions",
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "2e4f2419-37e9-458a-a7c3-21ea121fc5f6",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "mimoagent-bashonly-016",
+        "version": "c3df8469f250b15e7906487a6d52be4c1827a509",
+        "model_info": {
+            "name": "mimo-v2.6-distill-qwen-9b",
+            "provider": "openai"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 4954,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 310,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": {
+            "started_utc": "2026-10-27T14:53:35.054937+00:00",
+            "publisher_agent_commit": "c3df8469f250b15e7906487a6d52be4c1827a509",
+            "publisher_agent_profile": "BashOnlyAgent defaults,500 steps,bash timeout60,max300",
+            "model_revision": "2367e865d009c13ac81713a2878291d33ab28177",
+            "adapter_source_sha256": "adfcbbc65baad32b4f689228255e7cae806d4915239c554de4ad69f1fed70b52",
+            "upstream_manifest_sha256": "345ead11e93a693d2aaa4b76e907347275936a8511979bf40ca2b3e07854e105",
+            "verifier_visible_to_model": false,
+            "publisher_exact_leaderboard_harness_config_found": false,
+            "endpoint": "http://127.0.0.1:19019/v1",
+            "submitted": false,
+            "exit_status": "ModelQueryError",
+            "final_message": "RetryError[<Future at 0x75c9284d0710 state=finished raised APITimeoutError>]\nTraceback (most recent call last):\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_transports/default.py\", line 101, in map_httpcore_exceptions\n    yield\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_transports/default.py\", line 250, in handle_request\n    resp = self._pool.handle_request(req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py\", line 256, in handle_request\n    raise exc from None\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py\", line 236, in handle_request\n    response = connection.handle_request(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpcore/_sync/connection.py\", line 103, in handle_request\n    return self._connection.handle_request(request)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpcore/_sync/http11.py\", line 136, in handle_request\n    raise exc\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpcore/_sync/http11.py\", line 106, in handle_request\n    ) = self._receive_response_headers(**kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpcore/_sync/http11.py\", line 177, in _receive_response_headers\n    event = self._receive_event(timeout=timeout)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpcore/_sync/http11.py\", line 217, in _receive_event\n    data = self._network_stream.read(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpcore/_backends/sync.py\", line 126, in read\n    with map_exceptions(exc_map):\n  File \"/usr/lib/python3.12/contextlib.py\", line 158, in __exit__\n    self.gen.throw(value)\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpcore/_exceptions.py\", line 14, in map_exceptions\n    raise to_exc(exc) from exc\nhttpcore.ReadTimeout: timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/openai/_base_client.py\", line 1080, in request\n    response = self._send_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/openai/_client.py\", line 491, in _send_request\n    response = self._send_with_auth_retry(request, stream=stream, **kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/openai/_client.py\", line 469, in _send_with_auth_retry\n    response = super()._send_request(request, stream=stream, **kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/openai/_base_client.py\", line 1005, in _send_request\n    return self._client.send(request, stream=stream, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_client.py\", line 914, in send\n    response = self._send_handling_auth(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_client.py\", line 942, in _send_handling_auth\n    response = self._send_handling_redirects(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_client.py\", line 979, in _send_handling_redirects\n    response = self._send_single_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_client.py\", line 1014, in _send_single_request\n    response = transport.handle_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_transports/default.py\", line 249, in handle_request\n    with map_httpcore_exceptions():\n  File \"/usr/lib/python3.12/contextlib.py\", line 158, in __exit__\n    self.gen.throw(value)\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_transports/default.py\", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\nhttpx.ReadTimeout: timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/tenacity/__init__.py\", line 553, in __call__\n    result = fn(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/mimoagent016-pinned/src/mimoagent/models/openai_chat.py\", line 112, in _query\n    response = self.client.chat.completions.create(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/openai/_utils/_utils.py\", line 298, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py\", line 1296, in create\n    return self._post(\n           ^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/openai/_base_client.py\", line 1375, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/openai/_base_client.py\", line 1098, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/mnt/e/hg20261019/external/mimoagent016-pinned/src/mimoagent/agents/base.py\", line 255, in query\n    response = self.model.query(self.messages, **self.get_model_query_kwargs())\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/scripts/submission013/mimo_harbor_native017.py\", line 95, in query\n    response = super().query(messages,**kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/mimoagent016-pinned/src/mimoagent/models/openai_chat.py\", line 181, in query\n    token_count, payload = self._query(messages, **kwargs)\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/tenacity/__init__.py\", line 404, in wrapped_f\n    return copy(f, *args, **kw)\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/tenacity/__init__.py\", line 550, in __call__\n    do = self.iter(retry_state=retry_state)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/tenacity/__init__.py\", line 440, in iter\n    result = action(retry_state)\n             ^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/tenacity/__init__.py\", line 483, in exc_check\n    raise retry_exc from fut.exception()\ntenacity.RetryError: RetryError[<Future at 0x75c9284d0710 state=finished raised APITimeoutError>]\n",
+            "error": "RuntimeError('Publisher agent infrastructure exit: ModelQueryError: RetryError[<Future at 0x75c9284d0710 state=finished raised APITimeoutError>]\\nTraceback (most recent call last):\\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_tra')",
+            "ended_utc": "2026-10-27T15:28:09.963883+00:00",
+            "model_calls": 4,
+            "tool_calls": 5
+        }
+    },
+    "verifier_result": null,
+    "verifier_environment_mode": "shared",
+    "exception_info": {
+        "exception_type": "RuntimeError",
+        "exception_message": "Publisher agent infrastructure exit: ModelQueryError: RetryError[<Future at 0x75c9284d0710 state=finished raised APITimeoutError>]\nTraceback (most recent call last):\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_tra",
+        "exception_traceback": "Traceback (most recent call last):\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/harbor/trial/trial.py\", line 609, in run\n    await self._run()\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 40, in _run\n    await self._run_agent()\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/harbor/trial/single_step.py\", line 76, in _run_agent\n    await self._run_agent_phase(\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/harbor/trial/trial.py\", line 769, in _run_agent_phase\n    await asyncio.wait_for(\n  File \"/usr/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"/mnt/e/hg20261019/scripts/submission013/mimo_harbor_native017.py\", line 153, in run\n    raise RuntimeError(f'Publisher agent infrastructure exit: {status}: {message[:200]}')\nRuntimeError: Publisher agent infrastructure exit: ModelQueryError: RetryError[<Future at 0x75c9284d0710 state=finished raised APITimeoutError>]\nTraceback (most recent call last):\n  File \"/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_tra\n",
+        "occurred_at": "2026-10-27T15:28:10.193521Z"
+    },
+    "started_at": "2026-10-27T14:53:26.449455Z",
+    "finished_at": "2026-10-27T15:28:22.051080Z",
+    "environment_setup": {
+        "started_at": "2026-10-27T14:53:28.825951Z",
+        "finished_at": "2026-10-27T14:53:32.929076Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-27T14:53:32.929180Z",
+        "finished_at": "2026-10-27T14:53:33.173911Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-27T14:53:33.174208Z",
+        "finished_at": "2026-10-27T15:28:09.972072Z"
+    },
+    "verifier": null,
+    "step_results": null
+}

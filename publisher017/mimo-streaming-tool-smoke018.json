@@ -1,0 +1,21 @@
+{
+  "actual_model_endpoint": "http://127.0.0.1:19019/v1",
+  "publisher_streaming_assembler": true,
+  "full_generation_budget_unchanged_for_benchmark": true,
+  "smoke_max_tokens": 512,
+  "tool_call_exactly_reassembled": true,
+  "response": {
+    "content": null,
+    "tool_calls": [
+      {
+        "id": "call_2c51a1dc7ec2496cb9ce9619",
+        "type": "function",
+        "function": {
+          "name": "bash",
+          "arguments": "{\"command\": \"printf stream_tool_018\"}"
+        }
+      }
+    ]
+  },
+  "formal_accuracy_sample": false
+}

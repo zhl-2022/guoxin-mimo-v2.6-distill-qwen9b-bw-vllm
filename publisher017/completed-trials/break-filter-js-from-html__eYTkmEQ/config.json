@@ -1,0 +1,16 @@
+{
+    "task": {
+        "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/break-filter-js-from-html"
+    },
+    "trial_name": "break-filter-js-from-html__eYTkmEQ",
+    "trials_dir": "/mnt/e/hg20261019/evidence/session016/harbor-mimo/mimo-native-full017",
+    "agent_timeout_multiplier": 4.0,
+    "environment_build_timeout_multiplier": 3.0,
+    "agent": {
+        "import_path": "mimo_harbor_native017:MiMoBashHarborAgent",
+        "model_name": "openai/mimo-v2.6-distill-qwen-9b",
+        "base_url": "http://127.0.0.1:19019/v1",
+        "model_api_format": "openai_chat_completions"
+    },
+    "job_id": "2e4f2419-37e9-458a-a7c3-21ea121fc5f6"
+}

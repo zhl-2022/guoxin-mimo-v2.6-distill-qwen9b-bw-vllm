@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/harbor-framework/terminal-bench-2-1",
+  "commit": "7131e4375048a0e408a8fb404b5f499d726b695b",
+  "tasks": 89,
+  "Harbor": "0.25.0",
+  "LF_source_required": true,
+  "publisher_agent_repository": "https://github.com/XiaomiMiMo/mimoagent",
+  "publisher_agent_commit": "c3df8469f250b15e7906487a6d52be4c1827a509",
+  "all137_source_git_blobs_verified": true,
+  "final_accuracy_complete": false,
+  "submitted": false
+}

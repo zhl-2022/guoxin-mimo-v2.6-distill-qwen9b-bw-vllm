@@ -1,0 +1,4 @@
+Trial adaptive-rejection-sampler__gSr2umk failed: Publisher agent infrastructure exit: ModelQueryError: RetryError[<Future at 0x75c9284d0710 state=finished raised APITimeoutError>]
+Traceback (most recent call last):
+  File "/mnt/e/hg20261019/external/harbor-env015/lib/python3.12/site-packages/httpx/_tra
+Collecting main service artifacts

@@ -1,0 +1,109 @@
+{
+  "started_utc": "2026-10-27T14:49:29.160841+00:00",
+  "run_id": "76d9075c675c4970a588c45feb0d8d8a",
+  "checkpoint_revision": "2367e865d009c13ac81713a2878291d33ab28177",
+  "verified_files": [
+    {
+      "path": "chat_template.jinja",
+      "size": 3916,
+      "git_blob_sha1": "c6a37693fc7d9b48122182931a59f436e21b577a",
+      "verified": true
+    },
+    {
+      "path": "config.json",
+      "size": 2784,
+      "git_blob_sha1": "007c2eb8c73b9295f22491b1e4ab29d8b10f6e05",
+      "verified": true
+    },
+    {
+      "path": "generation_config.json",
+      "size": 126,
+      "git_blob_sha1": "06320848d7db69b8e66414a7ffad26b5be193fcd",
+      "verified": true
+    },
+    {
+      "path": "merges.txt",
+      "size": 3353259,
+      "git_blob_sha1": "a494e019ca1502219fd0128658b979e5f05ae8e8",
+      "verified": true
+    },
+    {
+      "path": "model-00001-of-00004.safetensors",
+      "size": 5276436216,
+      "sha256": "aab052180118aee34abc3029b54eaa49096aac606b97d703866b420dceb703c3",
+      "verified": true
+    },
+    {
+      "path": "model-00002-of-00004.safetensors",
+      "size": 5033171280,
+      "sha256": "7a0486565f06d25ac4628e9dba470dc3f604353471d240d5a0bf7128f64df396",
+      "verified": true
+    },
+    {
+      "path": "model-00003-of-00004.safetensors",
+      "size": 5234499504,
+      "sha256": "6c73207563d1879bfd6c143a028cc70be68edff56280458c71a43df4240300f4",
+      "verified": true
+    },
+    {
+      "path": "model-00004-of-00004.safetensors",
+      "size": 3275613848,
+      "sha256": "1379a7cf8c0b8555a39ab65a47e830e0eb45e776b46045734da3afd73c09eea2",
+      "verified": true
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size": 69217,
+      "git_blob_sha1": "be2a44ec6dc7004e51e648b5e2cf8c32cee42c79",
+      "verified": true
+    },
+    {
+      "path": "preprocessor_config.json",
+      "size": 443,
+      "git_blob_sha1": "8ed39680d90d989c35a3e308338a24875bafbc42",
+      "verified": true
+    },
+    {
+      "path": "processor_config.json",
+      "size": 1191,
+      "git_blob_sha1": "33818c7f9e991ad735fd240209f4fa73e6c28c50",
+      "verified": true
+    },
+    {
+      "path": "tokenizer.json",
+      "size": 19989325,
+      "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+      "verified": true
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size": 1165,
+      "git_blob_sha1": "1d134cd298be1e3be25db393d93a1cefe80e3214",
+      "verified": true
+    },
+    {
+      "path": "video_preprocessor_config.json",
+      "size": 385,
+      "git_blob_sha1": "3ba673a5ad7d4d13f54155ecd38b2a94a6dac8fe",
+      "verified": true
+    },
+    {
+      "path": "vocab.json",
+      "size": 6722759,
+      "git_blob_sha1": "0aa0ce0658d60ac4a5d609f4eadb0e8e43514176",
+      "verified": true
+    }
+  ],
+  "source_sha256": "1c40155cd1c0dd2bd5d86522534c36f29aea77a64ab4d6c05eceee049416acf1",
+  "runtime_sha256": "0edc33da22c07a804c93047f918a4a39a58af90997390c49695d8b39a891d85b",
+  "model_max_len": 204800,
+  "max_num_seqs": 4,
+  "owned_service_watchdog_seconds": 43200,
+  "reasoning_parser": "native qwen3; checked against this checkpoint think delimiters",
+  "submitted": false,
+  "official_accuracy_verified": false,
+  "instance_shutdown_requested": false,
+  "launch_exit_code": 0,
+  "ready": true,
+  "launch_finished_utc": "2026-10-27T14:51:26.845226+00:00"
+}

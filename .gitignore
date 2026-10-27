@@ -1,16 +1,2 @@
 __pycache__/
-*.py[cod]
-.venv/
-*.egg-info/
-.pytest_cache/
-dist/
-build/
-runtime/
-models/
-official/
-*.safetensors
-*.bin
-.env
-*.key
-*.pem
-*.secret
+*.pyc

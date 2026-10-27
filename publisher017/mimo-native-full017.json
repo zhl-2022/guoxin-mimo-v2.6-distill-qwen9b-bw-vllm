@@ -1,0 +1,293 @@
+{
+  "job_name": "mimo-native-full017",
+  "jobs_dir": "/mnt/e/hg20261019/evidence/session016/harbor-mimo",
+  "n_attempts": 1,
+  "n_concurrent_trials": 3,
+  "agent_timeout_multiplier": 4,
+  "quiet": true,
+  "environment": {
+    "type": "docker",
+    "delete": true
+  },
+  "agents": [
+    {
+      "import_path": "mimo_harbor_native017:MiMoBashHarborAgent",
+      "model_name": "openai/mimo-v2.6-distill-qwen-9b",
+      "base_url": "http://127.0.0.1:19019/v1",
+      "model_api_format": "openai_chat_completions"
+    }
+  ],
+  "tasks": [
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/adaptive-rejection-sampler"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/bn-fit-modify"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/break-filter-js-from-html"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/build-cython-ext"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/build-pmars"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/build-pov-ray"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/caffe-cifar-10"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/cancel-async-tasks"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/chess-best-move"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/circuit-fibsqrt"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/cobol-modernization"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/code-from-image"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/compile-compcert"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/configure-git-webserver"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/constraints-scheduling"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/count-dataset-tokens"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/crack-7z-hash"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/custom-memory-heap-crash"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/db-wal-recovery"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/distribution-search"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/dna-assembly"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/dna-insert"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/extract-elf"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/extract-moves-from-video"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/feal-differential-cryptanalysis"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/feal-linear-cryptanalysis"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/filter-js-from-html"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/financial-document-processor"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/fix-code-vulnerability"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/fix-git"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/fix-ocaml-gc"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/gcode-to-text"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/git-leak-recovery"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/git-multibranch"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/gpt2-codegolf"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/headless-terminal"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/hf-model-inference"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/install-windows-3.11"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/kv-store-grpc"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/large-scale-text-editing"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/largest-eigenval"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/llm-inference-batching-scheduler"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/log-summary-date-ranges"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/mailman"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/make-doom-for-mips"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/make-mips-interpreter"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/mcmc-sampling-stan"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/merge-diff-arc-agi-task"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/model-extraction-relu-logits"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/modernize-scientific-stack"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/mteb-leaderboard"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/mteb-retrieve"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/multi-source-data-merger"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/nginx-request-logging"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/openssl-selfsigned-cert"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/overfull-hbox"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/password-recovery"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/path-tracing"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/path-tracing-reverse"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/polyglot-c-py"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/polyglot-rust-c"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/portfolio-optimization"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/protein-assembly"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/prove-plus-comm"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/pypi-server"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/pytorch-model-cli"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/pytorch-model-recovery"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/qemu-alpine-ssh"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/qemu-startup"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/query-optimize"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/raman-fitting"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/regex-chess"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/regex-log"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/reshard-c4-data"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/rstan-to-pystan"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/sam-cell-seg"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/sanitize-git-repo"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/schemelike-metacircular-eval"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/sparql-university"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/sqlite-db-truncate"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/sqlite-with-gcov"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/torch-pipeline-parallelism"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/torch-tensor-parallelism"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/train-fasttext"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/tune-mjcf"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/video-processing"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/vulnerable-secret"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/winning-avg-corewars"
+    },
+    {
+      "path": "/mnt/e/hg20261019/external/terminal-bench-2-1-lfsafe016/tasks/write-compressor"
+    }
+  ],
+  "environment_build_timeout_multiplier": 3,
+  "retry": {
+    "max_retries": 0
+  }
+}

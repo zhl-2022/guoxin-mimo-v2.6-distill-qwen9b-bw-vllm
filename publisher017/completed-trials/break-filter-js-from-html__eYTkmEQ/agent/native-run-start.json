@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-10-27T14:53:35.798789+00:00",
+  "publisher_agent_commit": "c3df8469f250b15e7906487a6d52be4c1827a509",
+  "publisher_agent_profile": "BashOnlyAgent defaults,500 steps,bash timeout60,max300",
+  "model_revision": "2367e865d009c13ac81713a2878291d33ab28177",
+  "adapter_source_sha256": "adfcbbc65baad32b4f689228255e7cae806d4915239c554de4ad69f1fed70b52",
+  "upstream_manifest_sha256": "345ead11e93a693d2aaa4b76e907347275936a8511979bf40ca2b3e07854e105",
+  "verifier_visible_to_model": false,
+  "publisher_exact_leaderboard_harness_config_found": false,
+  "endpoint": "http://127.0.0.1:19019/v1",
+  "submitted": false
+}

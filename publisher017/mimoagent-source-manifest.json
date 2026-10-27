@@ -1,0 +1,1101 @@
+{
+  "commit": "c3df8469f250b15e7906487a6d52be4c1827a509",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "339328d620d779723500f4ad18dccf0293b91d93",
+      "size": 1150,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/339328d620d779723500f4ad18dccf0293b91d93"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f3cdc7faba310104f193689716528ad1e2bbe3",
+      "size": 7692,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/58f3cdc7faba310104f193689716528ad1e2bbe3"
+    },
+    {
+      "path": "example_configs/default-bash-only.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f32ca5a1d044dc32e41a69927156d9c2201777b6",
+      "size": 1157,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/f32ca5a1d044dc32e41a69927156d9c2201777b6"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "942fc82b9a2c0faa55f28de76947ef13842405c9",
+      "size": 6485,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/942fc82b9a2c0faa55f28de76947ef13842405c9"
+    },
+    {
+      "path": "src/mimoagent/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e0ebee7244fa8077ba3a9878acbcd0f4767d442",
+      "size": 2323,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/6e0ebee7244fa8077ba3a9878acbcd0f4767d442"
+    },
+    {
+      "path": "src/mimoagent/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88fd107a9ea190c611781295c2d8f72e95d1e568",
+      "size": 231,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/88fd107a9ea190c611781295c2d8f72e95d1e568"
+    },
+    {
+      "path": "src/mimoagent/agents/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3faca0ad06d7eb85cfd475d4adbb4ad2d3308059",
+      "size": 1157,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/3faca0ad06d7eb85cfd475d4adbb4ad2d3308059"
+    },
+    {
+      "path": "src/mimoagent/agents/antihack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e752efbb7fccbd67f6103ff97d61835623a12bc0",
+      "size": 16116,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/e752efbb7fccbd67f6103ff97d61835623a12bc0"
+    },
+    {
+      "path": "src/mimoagent/agents/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b051af70394eb41905411c1846f3a91666b0941",
+      "size": 14937,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/5b051af70394eb41905411c1846f3a91666b0941"
+    },
+    {
+      "path": "src/mimoagent/agents/bashonly/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9040334f6066ba8bee444417834565dcb3ff2993",
+      "size": 171,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/9040334f6066ba8bee444417834565dcb3ff2993"
+    },
+    {
+      "path": "src/mimoagent/agents/bashonly/bashonly_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ef75e1295917455cf3bc25bbf28cc943535221b",
+      "size": 2275,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/8ef75e1295917455cf3bc25bbf28cc943535221b"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19783ac501803cb7777c99f84064e0019a7d2705",
+      "size": 2505,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/19783ac501803cb7777c99f84064e0019a7d2705"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/claude_code.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e13fcab26e1538c424341e48f8233144ad8cce6",
+      "size": 19230,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/3e13fcab26e1538c424341e48f8233144ad8cce6"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/codex.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "750a2e33802a50b8bfdd64708eceed6ee69fcc1c",
+      "size": 20231,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/750a2e33802a50b8bfdd64708eceed6ee69fcc1c"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/detached.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "541f636378d186d62d0a9a37a1642a208b21c68e",
+      "size": 2665,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/541f636378d186d62d0a9a37a1642a208b21c68e"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/dsh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6d57ceb8368c76f370f5c137a10cf1b418982cc",
+      "size": 9996,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/a6d57ceb8368c76f370f5c137a10cf1b418982cc"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/grok.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "365df211ec7d7cf8d9b000dfc304a9ca4e1a4b42",
+      "size": 12967,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/365df211ec7d7cf8d9b000dfc304a9ca4e1a4b42"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/harness_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aeabf40cdf8acc02676b5da515bcb1de87c11ea",
+      "size": 21715,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/8aeabf40cdf8acc02676b5da515bcb1de87c11ea"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/hermes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78a3c27011e82bd9a9588502685dd27c78708c54",
+      "size": 13396,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/78a3c27011e82bd9a9588502685dd27c78708c54"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/install_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "316041057adbf3046e39f595ff47ebdeed2f5052",
+      "size": 1600,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/316041057adbf3046e39f595ff47ebdeed2f5052"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/kilocode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17bd0d61ca43db7aba54698a5e65537fd2460338",
+      "size": 12324,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/17bd0d61ca43db7aba54698a5e65537fd2460338"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/kimi_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c455488023fffc6f59d8e7139f04cb1988dde859",
+      "size": 10458,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/c455488023fffc6f59d8e7139f04cb1988dde859"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/kimi_code.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b43196c619dfd7089f39434a33c0b7bdb2dddb90",
+      "size": 10160,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/b43196c619dfd7089f39434a33c0b7bdb2dddb90"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/mimocode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16843d738f1e2324c88908d8a832601b61df7019",
+      "size": 22720,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/16843d738f1e2324c88908d8a832601b61df7019"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/mini_swe_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5416749ff2597e1ac99ff41598b8212f31f3d3a0",
+      "size": 13242,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/5416749ff2597e1ac99ff41598b8212f31f3d3a0"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/omp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d82b48cfdfc293bf10333c684b8a7f31132f1fa",
+      "size": 10162,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/4d82b48cfdfc293bf10333c684b8a7f31132f1fa"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/openclaw.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e65abac399db94b642bc918f3458fbb7f656b29",
+      "size": 10006,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/5e65abac399db94b642bc918f3458fbb7f656b29"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/opencode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b433d71ae81e5951f05123a80c0ae8b478cb8ca",
+      "size": 8742,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/2b433d71ae81e5951f05123a80c0ae8b478cb8ca"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/pi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03c900d44b82d3e272d28fcc34e42f81228a2e03",
+      "size": 18444,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/03c900d44b82d3e272d28fcc34e42f81228a2e03"
+    },
+    {
+      "path": "src/mimoagent/agents/blackbox/resources/run_claude_sdk.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05d398f615ac83e075ef75ca05f6614227b8e7fb",
+      "size": 12850,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/05d398f615ac83e075ef75ca05f6614227b8e7fb"
+    },
+    {
+      "path": "src/mimoagent/agents/cc/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "868dbf8dd83dfe3e444e5eea964092274c4a9f8d",
+      "size": 145,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/868dbf8dd83dfe3e444e5eea964092274c4a9f8d"
+    },
+    {
+      "path": "src/mimoagent/agents/cc/cc_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09d57fee0e48ddf779b81a5b0d47e2b80d8648e1",
+      "size": 12714,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/09d57fee0e48ddf779b81a5b0d47e2b80d8648e1"
+    },
+    {
+      "path": "src/mimoagent/agents/codex/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49ef4afa2ba48e341abef8e5a198c96891a3e39b",
+      "size": 316,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/49ef4afa2ba48e341abef8e5a198c96891a3e39b"
+    },
+    {
+      "path": "src/mimoagent/agents/codex/codex_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e3a9c6570c45d4e2c7575d2a6454441769833b6",
+      "size": 19207,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/3e3a9c6570c45d4e2c7575d2a6454441769833b6"
+    },
+    {
+      "path": "src/mimoagent/agents/codex/prompts/codex_core.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c12ea946e1305fe5f844de8d74719e83c085c1af",
+      "size": 8412,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/c12ea946e1305fe5f844de8d74719e83c085c1af"
+    },
+    {
+      "path": "src/mimoagent/agents/default.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b39593c09f4f5085523a6881b6c1536b64b8031",
+      "size": 15820,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/4b39593c09f4f5085523a6881b6c1536b64b8031"
+    },
+    {
+      "path": "src/mimoagent/agents/factory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da7d73a95bd2810f940d97e28d98ce19d6794dfe",
+      "size": 5256,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/da7d73a95bd2810f940d97e28d98ce19d6794dfe"
+    },
+    {
+      "path": "src/mimoagent/agents/mimocode/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1050967760e0fe00c9e506ce9c6ae895faf08d3c",
+      "size": 761,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/1050967760e0fe00c9e506ce9c6ae895faf08d3c"
+    },
+    {
+      "path": "src/mimoagent/agents/mimocode/mimocode_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "151532b1ab2004423d20a7d484e15baafaa48b10",
+      "size": 16613,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/151532b1ab2004423d20a7d484e15baafaa48b10"
+    },
+    {
+      "path": "src/mimoagent/agents/mimocode/mimocode_subagents.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2f2ad545e15de550234b588a15537147f3d84ae",
+      "size": 2542,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/f2f2ad545e15de550234b588a15537147f3d84ae"
+    },
+    {
+      "path": "src/mimoagent/agents/mimocode/prompts/mimocode_core.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "224306738ebbb7d33a41b476bd78c219d6c40529",
+      "size": 9948,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/224306738ebbb7d33a41b476bd78c219d6c40529"
+    },
+    {
+      "path": "src/mimoagent/agents/mimocode/prompts/mimocode_explore.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "805182a3608fb29de37f025fdb7ad8931963cf5b",
+      "size": 1021,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/805182a3608fb29de37f025fdb7ad8931963cf5b"
+    },
+    {
+      "path": "src/mimoagent/agents/mimocode/prompts/mimocode_general.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7627ae473b3abae530a610539fbcf77b07e1ab9",
+      "size": 851,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/c7627ae473b3abae530a610539fbcf77b07e1ab9"
+    },
+    {
+      "path": "src/mimoagent/agents/subagents.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4750467cc97ae75e00f0054bf3e11c6f72165836",
+      "size": 9537,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/4750467cc97ae75e00f0054bf3e11c6f72165836"
+    },
+    {
+      "path": "src/mimoagent/agents/user_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a3a82f086f1ff0e4bff3db6829355c766ba3c35",
+      "size": 17346,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/1a3a82f086f1ff0e4bff3db6829355c766ba3c35"
+    },
+    {
+      "path": "src/mimoagent/compaction/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7234bf69e5247c048776414c22056c6c8b6da3c6",
+      "size": 1883,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/7234bf69e5247c048776414c22056c6c8b6da3c6"
+    },
+    {
+      "path": "src/mimoagent/compaction/prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76c3637759a58e93bfbd7f9d6229bc265e54675b",
+      "size": 7259,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/76c3637759a58e93bfbd7f9d6229bc265e54675b"
+    },
+    {
+      "path": "src/mimoagent/compaction/surgery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "579ec418dd1605929e538403b2f8807cc24920e2",
+      "size": 8622,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/579ec418dd1605929e538403b2f8807cc24920e2"
+    },
+    {
+      "path": "src/mimoagent/config/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f78394eb504e610d49e929b8605449a3c9cad1",
+      "size": 2563,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/46f78394eb504e610d49e929b8605449a3c9cad1"
+    },
+    {
+      "path": "src/mimoagent/config/extra/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65e1fb9def2c59fb4c336393d0dda00d2ca5ad94",
+      "size": 47,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/65e1fb9def2c59fb4c336393d0dda00d2ca5ad94"
+    },
+    {
+      "path": "src/mimoagent/environments/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "536bf7df7b3bbdeb366730812cd787c05c5a26a7",
+      "size": 1505,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/536bf7df7b3bbdeb366730812cd787c05c5a26a7"
+    },
+    {
+      "path": "src/mimoagent/environments/cube.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ea3322dfd703479b5b1db971e231c5534ffd98e",
+      "size": 24944,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/2ea3322dfd703479b5b1db971e231c5534ffd98e"
+    },
+    {
+      "path": "src/mimoagent/environments/datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f5b780906f890e4ead47f4d17c47743bad923ee",
+      "size": 4594,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/1f5b780906f890e4ead47f4d17c47743bad923ee"
+    },
+    {
+      "path": "src/mimoagent/environments/datasets/arvo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de969f9ef2aea22a5944ccfcd57da8feff444e77",
+      "size": 5169,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/de969f9ef2aea22a5944ccfcd57da8feff444e77"
+    },
+    {
+      "path": "src/mimoagent/environments/datasets/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90c50417b1a384e1eed70e7f53652b5bd2eac6c6",
+      "size": 34137,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/90c50417b1a384e1eed70e7f53652b5bd2eac6c6"
+    },
+    {
+      "path": "src/mimoagent/environments/datasets/deepswe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8bef41d57d820a2e285bfece39fae86723ef28e",
+      "size": 21240,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/d8bef41d57d820a2e285bfece39fae86723ef28e"
+    },
+    {
+      "path": "src/mimoagent/environments/datasets/generic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93fd98a04fc0ba02c6fd92553ae4008563ac474d",
+      "size": 4226,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/93fd98a04fc0ba02c6fd92553ae4008563ac474d"
+    },
+    {
+      "path": "src/mimoagent/environments/datasets/opensource_code.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b14a1e8a7c31b5c2d23d9ecf41c6901f6387eab",
+      "size": 11318,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/2b14a1e8a7c31b5c2d23d9ecf41c6901f6387eab"
+    },
+    {
+      "path": "src/mimoagent/environments/datasets/resources/server_arvo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0b229bccd0cdf3a8959d57c62eece133506ab6c",
+      "size": 7899,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/c0b229bccd0cdf3a8959d57c62eece133506ab6c"
+    },
+    {
+      "path": "src/mimoagent/environments/detached.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a83d313eee7a1d312ab67562d04611911d75772",
+      "size": 15463,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/0a83d313eee7a1d312ab67562d04611911d75772"
+    },
+    {
+      "path": "src/mimoagent/environments/docker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d889734ea89fa2cc3c0a9f5f1292393c9fb8f760",
+      "size": 6143,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/d889734ea89fa2cc3c0a9f5f1292393c9fb8f760"
+    },
+    {
+      "path": "src/mimoagent/environments/kubernetes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "540e1b5bbbf2284c0ecb8f449fce52143d9f9246",
+      "size": 49667,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/540e1b5bbbf2284c0ecb8f449fce52143d9f9246"
+    },
+    {
+      "path": "src/mimoagent/environments/local.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf4fa55369059543b17d4e602061cdc89683f02a",
+      "size": 2277,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/cf4fa55369059543b17d4e602061cdc89683f02a"
+    },
+    {
+      "path": "src/mimoagent/environments/modal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57fc51d4d13f73144b3c33194c9bbf4e9b85e719",
+      "size": 28135,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/57fc51d4d13f73144b3c33194c9bbf4e9b85e719"
+    },
+    {
+      "path": "src/mimoagent/environments/rubric_judge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b99b8c7ae5633b9df644261bdf2decc837f218",
+      "size": 37061,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/c1b99b8c7ae5633b9df644261bdf2decc837f218"
+    },
+    {
+      "path": "src/mimoagent/environments/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae7135cd44d2c68c9400ca47e1d8faca4a4cf63",
+      "size": 4946,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/4ae7135cd44d2c68c9400ca47e1d8faca4a4cf63"
+    },
+    {
+      "path": "src/mimoagent/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3ca0556cd981afcffba12ebb67ee0679d4ede5d",
+      "size": 5644,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/b3ca0556cd981afcffba12ebb67ee0679d4ede5d"
+    },
+    {
+      "path": "src/mimoagent/models/anthropic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f32a15e91f87e3ff17ecac7a75491eadc8210a50",
+      "size": 18480,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/f32a15e91f87e3ff17ecac7a75491eadc8210a50"
+    },
+    {
+      "path": "src/mimoagent/models/openai_chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf5d8e2523e6b959c679acd7d389950005592e6e",
+      "size": 13651,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/cf5d8e2523e6b959c679acd7d389950005592e6e"
+    },
+    {
+      "path": "src/mimoagent/models/openai_responses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4949ff28a63e9a00bbf2fed9484c375f37701033",
+      "size": 17000,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/4949ff28a63e9a00bbf2fed9484c375f37701033"
+    },
+    {
+      "path": "src/mimoagent/models/test_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2ac1a3baa86cef4fa272f8e67c7addabb598b7a",
+      "size": 1948,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/a2ac1a3baa86cef4fa272f8e67c7addabb598b7a"
+    },
+    {
+      "path": "src/mimoagent/models/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/mimoagent/models/utils/content.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "013b09a9e49c77c19e777f9294ccfb009efb0e59",
+      "size": 2906,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/013b09a9e49c77c19e777f9294ccfb009efb0e59"
+    },
+    {
+      "path": "src/mimoagent/run/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ec10f718495f8262ceb9af0d398f50cbb298b59",
+      "size": 33,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/1ec10f718495f8262ceb9af0d398f50cbb298b59"
+    },
+    {
+      "path": "src/mimoagent/run/extra/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/mimoagent/run/extra/batch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11d118afe0c37e702af88ae4c9ce47a8886a2bf2",
+      "size": 39317,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/11d118afe0c37e702af88ae4c9ce47a8886a2bf2"
+    },
+    {
+      "path": "src/mimoagent/run/extra/ray_batch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad1c51bf3ba49a58c0b09ae3928f40253437d3c1",
+      "size": 30851,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/ad1c51bf3ba49a58c0b09ae3928f40253437d3c1"
+    },
+    {
+      "path": "src/mimoagent/run/extra/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/mimoagent/run/extra/utils/batch_progress.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4a9fa3592e497190d008ae4b83faa1b493499dd",
+      "size": 7937,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/d4a9fa3592e497190d008ae4b83faa1b493499dd"
+    },
+    {
+      "path": "src/mimoagent/run/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/mimoagent/run/utils/instance_logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a4ac4d77481cedffd221017d4e1d0ab8db35f0b",
+      "size": 1263,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/4a4ac4d77481cedffd221017d4e1d0ab8db35f0b"
+    },
+    {
+      "path": "src/mimoagent/run/utils/save.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff3cfa23c808c4e36798b9f74853478ffc8ff596",
+      "size": 4181,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/ff3cfa23c808c4e36798b9f74853478ffc8ff596"
+    },
+    {
+      "path": "src/mimoagent/tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ae103bdb060e1c0a31638a7aa02df8703101e73",
+      "size": 244,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/8ae103bdb060e1c0a31638a7aa02df8703101e73"
+    },
+    {
+      "path": "src/mimoagent/tools/agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ed4cf68bb9432b9ee8d383b1c3ef64618a525a2",
+      "size": 6229,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/8ed4cf68bb9432b9ee8d383b1c3ef64618a525a2"
+    },
+    {
+      "path": "src/mimoagent/tools/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e42a05ac62fdc15154495001f6e40e4a10a017",
+      "size": 3475,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/66e42a05ac62fdc15154495001f6e40e4a10a017"
+    },
+    {
+      "path": "src/mimoagent/tools/bash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f1917da9dd527be70f4b72da13a48c7989aa732",
+      "size": 5674,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/0f1917da9dd527be70f4b72da13a48c7989aa732"
+    },
+    {
+      "path": "src/mimoagent/tools/bashonly/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "570882f6e69de2886b7240455670e77503407a0c",
+      "size": 161,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/570882f6e69de2886b7240455670e77503407a0c"
+    },
+    {
+      "path": "src/mimoagent/tools/bashonly/bash_only.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8f4d012ac1e82f0ba626ab0201cc37c3567a773",
+      "size": 2481,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/f8f4d012ac1e82f0ba626ab0201cc37c3567a773"
+    },
+    {
+      "path": "src/mimoagent/tools/cc/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbe0e1cbff2286a1aa9eba20305deeb129ceb1ca",
+      "size": 2520,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/cbe0e1cbff2286a1aa9eba20305deeb129ceb1ca"
+    },
+    {
+      "path": "src/mimoagent/tools/cc/agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74b33aff91839b3cff44925ec4b7014ea71d32c5",
+      "size": 8673,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/74b33aff91839b3cff44925ec4b7014ea71d32c5"
+    },
+    {
+      "path": "src/mimoagent/tools/cc/bash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a803a4d3fe662d03ef89a8dc4af1edf7e7ef8dc7",
+      "size": 7964,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/a803a4d3fe662d03ef89a8dc4af1edf7e7ef8dc7"
+    },
+    {
+      "path": "src/mimoagent/tools/cc/compact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fabd43b483e072f2702100bd281edde8e07de71",
+      "size": 3449,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/5fabd43b483e072f2702100bd281edde8e07de71"
+    },
+    {
+      "path": "src/mimoagent/tools/cc/edit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48945981040aabe8cb9e06447b00975d61ec18dd",
+      "size": 11602,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/48945981040aabe8cb9e06447b00975d61ec18dd"
+    },
+    {
+      "path": "src/mimoagent/tools/cc/glob.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c864f491517bf8ef74c21c6d098a2a41982c789",
+      "size": 3687,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/2c864f491517bf8ef74c21c6d098a2a41982c789"
+    },
+    {
+      "path": "src/mimoagent/tools/cc/grep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c90e7427b61de5ddce90dfe28b0284b83f6b239",
+      "size": 10442,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/0c90e7427b61de5ddce90dfe28b0284b83f6b239"
+    },
+    {
+      "path": "src/mimoagent/tools/cc/read.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2530cb8550f84603674b8cd80ea3b792e80f1833",
+      "size": 8862,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/2530cb8550f84603674b8cd80ea3b792e80f1833"
+    },
+    {
+      "path": "src/mimoagent/tools/cc/write.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4fe26d78ac896005efa15afc84927f66213aae2",
+      "size": 3604,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/b4fe26d78ac896005efa15afc84927f66213aae2"
+    },
+    {
+      "path": "src/mimoagent/tools/codex/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c429be4833ca91b131a8f7f215bbb46031a4ea9",
+      "size": 1971,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/4c429be4833ca91b131a8f7f215bbb46031a4ea9"
+    },
+    {
+      "path": "src/mimoagent/tools/codex/apply_patch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d4fe8f46ed0f168b00597c83c215c6d57cc765a",
+      "size": 29397,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/4d4fe8f46ed0f168b00597c83c215c6d57cc765a"
+    },
+    {
+      "path": "src/mimoagent/tools/codex/code_mode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dc0c5a6366e70255da009b3e3a5f6c23192e984",
+      "size": 28994,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/7dc0c5a6366e70255da009b3e3a5f6c23192e984"
+    },
+    {
+      "path": "src/mimoagent/tools/codex/code_mode_host.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95ae6968522705f7081640b2cac35cac7eda2613",
+      "size": 58071,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/95ae6968522705f7081640b2cac35cac7eda2613"
+    },
+    {
+      "path": "src/mimoagent/tools/codex/exec_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4212024e2a3fab08753bcfd59c4de372409def2d",
+      "size": 10860,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/4212024e2a3fab08753bcfd59c4de372409def2d"
+    },
+    {
+      "path": "src/mimoagent/tools/codex/output_budget.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b0465f13cd638dd14938184e9e34320b61c73de",
+      "size": 8196,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/6b0465f13cd638dd14938184e9e34320b61c73de"
+    },
+    {
+      "path": "src/mimoagent/tools/codex/update_plan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c9710343d4efc642999e7fa02d6bccee17d168",
+      "size": 3570,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/98c9710343d4efc642999e7fa02d6bccee17d168"
+    },
+    {
+      "path": "src/mimoagent/tools/codex/view_image.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c3c96181e46811d3524a8cae0909bd153f18828",
+      "size": 5405,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/2c3c96181e46811d3524a8cae0909bd153f18828"
+    },
+    {
+      "path": "src/mimoagent/tools/edit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebb79ece90b73e080322a283c4d28ef3d149c3a7",
+      "size": 10461,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/ebb79ece90b73e080322a283c4d28ef3d149c3a7"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7f5af13f8383d358312dbb07b9d2f46ecf1b86c",
+      "size": 2246,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/b7f5af13f8383d358312dbb07b9d2f46ecf1b86c"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/actor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70059ccb103a63044e0f942e4541252cffd3b7e0",
+      "size": 8385,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/70059ccb103a63044e0f942e4541252cffd3b7e0"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/bash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a02abb6b7bc19b9b097f256e4bde29ce3532b14",
+      "size": 9266,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/6a02abb6b7bc19b9b097f256e4bde29ce3532b14"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/bash.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7d020e146393a8e2dc23fa4490344beea268a5f",
+      "size": 3779,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/a7d020e146393a8e2dc23fa4490344beea268a5f"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/compact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a93fb85691c43a733aee1d850596a14f5f0c995f",
+      "size": 3415,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/a93fb85691c43a733aee1d850596a14f5f0c995f"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/edit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09d6b74a2537c6094a0a0155bc67346996d2db46",
+      "size": 4057,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/09d6b74a2537c6094a0a0155bc67346996d2db46"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/edit.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a3dbda0026aaf2d9715f29d7971d8cc801d29e7",
+      "size": 1561,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/6a3dbda0026aaf2d9715f29d7971d8cc801d29e7"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/edit_cc_impl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f94f02ad8d04a89a54133d032e567b2c520224d",
+      "size": 11148,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/4f94f02ad8d04a89a54133d032e567b2c520224d"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/glob.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8f94272b6a1dc765beeea4c381b10d83874a644",
+      "size": 7465,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/e8f94272b6a1dc765beeea4c381b10d83874a644"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/glob.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bd03c296d42c41d1b97024099dd50da29438ba4",
+      "size": 650,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/1bd03c296d42c41d1b97024099dd50da29438ba4"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/grep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47ecf834e96cde5f9b5f3dd0e807f3c5a815cadb",
+      "size": 10947,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/47ecf834e96cde5f9b5f3dd0e807f3c5a815cadb"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/grep.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df9403de8852e0018362f5867ae0f3507b2eca10",
+      "size": 562,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/df9403de8852e0018362f5867ae0f3507b2eca10"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/paths.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfdbad2f1a7acd08cd001f2fb4a2e8cff2fef17b",
+      "size": 732,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/dfdbad2f1a7acd08cd001f2fb4a2e8cff2fef17b"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "101e218c980646cb3b7c1be55afe1aa2018b2983",
+      "size": 1506,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/101e218c980646cb3b7c1be55afe1aa2018b2983"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/read.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0959e39ec235ac42f1022b397a5874ea17ea5a64",
+      "size": 10538,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/0959e39ec235ac42f1022b397a5874ea17ea5a64"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/read.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe0c59021754cb2b34bddaa721a14cbc64e72849",
+      "size": 1100,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/fe0c59021754cb2b34bddaa721a14cbc64e72849"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/state.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90eb678f272622c2b8c7ba8d17f604ab0c4bd051",
+      "size": 1396,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/90eb678f272622c2b8c7ba8d17f604ab0c4bd051"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d405da4837147dcdb0cfaa93d5d8a0c502617fcf",
+      "size": 9044,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/d405da4837147dcdb0cfaa93d5d8a0c502617fcf"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/task.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d447a2c95083b23e6e1703488a256757a97af636",
+      "size": 2915,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/d447a2c95083b23e6e1703488a256757a97af636"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/write.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f1a50f6043924f8d6208488488d10462673b586",
+      "size": 3485,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/4f1a50f6043924f8d6208488488d10462673b586"
+    },
+    {
+      "path": "src/mimoagent/tools/mimocode/write.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceb35b6741780f62de8cf1a286b5a89c795cc885",
+      "size": 996,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/ceb35b6741780f62de8cf1a286b5a89c795cc885"
+    },
+    {
+      "path": "src/mimoagent/tools/read.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2e551e8517a85f4c1df104cd4525d7565864285",
+      "size": 10462,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/c2e551e8517a85f4c1df104cd4525d7565864285"
+    },
+    {
+      "path": "src/mimoagent/tools/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "734eff094ddb2da0b4acb5070513faef6754c072",
+      "size": 2210,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/734eff094ddb2da0b4acb5070513faef6754c072"
+    },
+    {
+      "path": "src/mimoagent/tools/ripgrep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa9bfad244dab119ada36f56d28884b755bf9b10",
+      "size": 4357,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/aa9bfad244dab119ada36f56d28884b755bf9b10"
+    },
+    {
+      "path": "src/mimoagent/tools/write.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f771d45faafc72d34efd678426c2cb42777b472",
+      "size": 3468,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/0f771d45faafc72d34efd678426c2cb42777b472"
+    },
+    {
+      "path": "src/mimoagent/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/mimoagent/utils/cal_token.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3668a43d6a0f0bbedb4fc4e10afbe9c258917a77",
+      "size": 4546,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/3668a43d6a0f0bbedb4fc4e10afbe9c258917a77"
+    },
+    {
+      "path": "src/mimoagent/utils/dataclass_kwargs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "827ad4288f9e575ce1b2f47641de1ba9a15b8c69",
+      "size": 1022,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/827ad4288f9e575ce1b2f47641de1ba9a15b8c69"
+    },
+    {
+      "path": "src/mimoagent/utils/log.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02efd0793d53b108403d002a6fe037b1683af3be",
+      "size": 6808,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/02efd0793d53b108403d002a6fe037b1683af3be"
+    },
+    {
+      "path": "src/mimoagent/utils/tool_call_errors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e637aa1f1c2f3b9f2b5f608029e5515e64111cc3",
+      "size": 1506,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/e637aa1f1c2f3b9f2b5f608029e5515e64111cc3"
+    },
+    {
+      "path": "src/mimoagent/utils/truncate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "773c96b2371bc351fd33f86dc2a09df34f31d366",
+      "size": 3191,
+      "url": "https://api.github.com/repos/XiaomiMiMo/mimoagent/git/blobs/773c96b2371bc351fd33f86dc2a09df34f31d366"
+    }
+  ]
+}
