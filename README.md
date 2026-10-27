@@ -18,7 +18,7 @@ DTK26.04，native vLLM0.18.1，204800总上下文，四序列上限，原生 qwe
 
 ## 4. 服务与运行脚本
 
-`scripts/submission013/launch_mimo_agent017.py` 保存实际服务004启动源码；服务受12小时自有进程看门狗保护，Notebook按用户要求保留。`run_mimo_native_harbor017.py`是本轮89项控制器；`run_mimo_repair018.py`已在原工作区等待首轮结束，只修复通信/环境错误或尚未完成任务，保留正常reward=0，分母仍为89。
+`scripts/submission013/launch_mimo_agent017.py` 保存实际服务004启动源码；服务受12小时自有进程看门狗保护，Notebook按用户要求保留。旧 `run_mimo_native_harbor017.py` 控制器已于2026-10-27 16:11:21 UTC 主动停止，为修复长生成读取超时切换到发布方已有流式消息组装。`run_mimo_repair018.py`于16:12:24 UTC 接续87项通信/环境异常或未完成任务；两个已正常评分的结果保持不变，分母仍为89。
 
 本分支的配置和状态副本在`publisher017`，属于时间点原件。执行器当前的工作区路径、数据和进程状态尚未移植成此备份仓库的一键入口，因此不要直接复用状态副本启动重复任务。
 
@@ -28,7 +28,11 @@ DTK26.04，native vLLM0.18.1，204800总上下文，四序列上限，原生 qwe
 
 ## 6. 完整准确率
 
-固定官方Terminal-Bench2.1 commit `7131e4375048a0e408a8fb404b5f499d726b695b` 的全部89项。发布方SFT基线37.1%，按绝对2pt容差最低35.1%，至少需要32/89通过；不能混用RL分数。完整首轮运行中，目前归档一个实际reward=1任务及一个真实API超时错误任务，不据此推算全量成绩。
+固定官方Terminal-Bench2.1 commit `7131e4375048a0e408a8fb404b5f499d726b695b` 的全部89项。发布方SFT基线37.1%，按绝对2pt容差最低35.1%，至少需要32/89通过；不能混用RL分数。当前尚未完成全89项。旧 full017 的一个 reward=1 和一个正常3600秒任务超时 reward=0 已保留；后者不作为通信故障重跑。一个真正的 API 读取超时和三个主动取消的未完成任务保留原件并接续运行，不据此推算全量成绩。
+
+`publisher017/session017-initial-harbor-finished-trials.zip` 保存已停止旧轮的全部81个原始文件，SHA256 `2dbb841ad65df4d2b3bd501fb6c21dac7945d802f1c3e7d5eaff37d5a188bea0`。`mimo-streaming-transition-audit.json` 更正原事件中“两项 API 超时”的不精确描述：实际为一个 API 超时、一个正式任务超时零分。流式修复不修改模型预算或采样参数。
+
+最终可使用 `scripts/submission013/audit_mimo_selection019.py`独立核对018完整选择清单。它明确区分有真实零分的正常任务超时与未解决基础设施错误，拒绝正常零分重试和排除分母；没有全部89项选择清单时拒绝生成准确率结论。
 
 完整框架的所有细化发布配置并未全部公开，本报告保留当前BashOnlyAgent/Harbor协议差异。所有环境及通信失败保留原件，不删除失败样本抬高分数。Harbor内建retry会删除上一目录，因此关闭；后续基础设施重试另建目录。
 

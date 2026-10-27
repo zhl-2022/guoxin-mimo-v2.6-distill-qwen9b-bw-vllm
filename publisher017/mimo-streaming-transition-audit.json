@@ -1,0 +1,61 @@
+{
+  "UTC": "2026-10-27T16:17:34.457084+00:00",
+  "transition_event": "evidence/session017/mimo-streaming-transition.json",
+  "old_controller_exit": "intentional SIGINT; KeyboardInterrupt expected",
+  "original_transition_reason_correction": "Exactly one completed trial ended with RuntimeError wrapping ModelQueryError/APITimeoutError. A different task reached its legitimate3600s AgentTimeoutError and reward0; that valid failure is retained, not retried. Earlier event reason said two APITimeoutError trials and was imprecise.",
+  "old_trials": [
+    {
+      "task": "adaptive-rejection-sampler__gSr2umk",
+      "result_sha256": "6208ff752695c4a76d7abe6b916e8a916c218dd0f861867ec42fbddafc4c9d73",
+      "exception": "RuntimeError",
+      "rewards": null
+    },
+    {
+      "task": "bn-fit-modify__SX9fRTd",
+      "result_sha256": "115f76ea2d2ef9e4e6a85c7f0dceb161ab739ca87d275c0213dbfc1a6f8fb9ff",
+      "exception": "CancelledError",
+      "rewards": null
+    },
+    {
+      "task": "break-filter-js-from-html__eYTkmEQ",
+      "result_sha256": "3f292305a75a4968ed71aae28e6165a485a4c00bab3e4ea41958383cf442dcd3",
+      "exception": null,
+      "rewards": {
+        "reward": 1.0
+      }
+    },
+    {
+      "task": "build-cython-ext__hTPHP3D",
+      "result_sha256": "f57767bb6f110a0a81918b956503488ded5b4e319c56ad3213feb3cc8a2640a1",
+      "exception": "AgentTimeoutError",
+      "rewards": {
+        "reward": 0.0
+      }
+    },
+    {
+      "task": "build-pmars__qh7K9MU",
+      "result_sha256": "5f5c0b2665e75c49262a377957557044badaf0e61a0fa860b25994577546a98a",
+      "exception": "CancelledError",
+      "rewards": null
+    },
+    {
+      "task": "build-pov-ray__qf4UUxk",
+      "result_sha256": "aaa4034acbd29aa9d2442ac63e85bf61fb8ee1a34fd7583de238316da613c6a0",
+      "exception": "CancelledError",
+      "rewards": null
+    }
+  ],
+  "preserved_valid_scores": 2,
+  "preserved_reward_one": 1,
+  "preserved_reward_zero": 1,
+  "repair_tasks": 87,
+  "active_job": "mimo-native-repair018-0",
+  "harbor_pid": 118948,
+  "streaming_repair_state_file": "evidence/session016/mimo-native-controller-progress018.json",
+  "full_denominator": 89,
+  "Notebook_shutdown_requested": false,
+  "GPU_service_restarted": false,
+  "all_raw_results_preserved": true,
+  "numeric_pass": null,
+  "submitted": false
+}

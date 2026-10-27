@@ -1,0 +1,11 @@
+{
+  "UTC": "2026-10-27T16:11:21.927518+00:00",
+  "action": "Interrupt only owned nonstreaming Harbor controller to let existing streaming repair018 resume valid+pending all89",
+  "old_controller_pid": 78127,
+  "repair_controller_pid": 102365,
+  "reason": "Two real APITimeoutError trials; streaming native tool assembly independently passed",
+  "existing_valid_scores_retained": true,
+  "all_prior_raw_results_retained": true,
+  "GPU_service_restarted": false,
+  "Notebook_shutdown_requested": false
+}
